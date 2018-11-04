@@ -8,7 +8,7 @@
 $secretkey = 'YOURSECRETKEY'; 
 if( !empty($_POST && $_POST['secretkey'] == base64_encode($secretkey)) ) {
 
-	//do your ligics, security checks, insert to databse etc here
+	//do your logics, security checks, insert to databse etc here
 	
 	
 	//post variables
